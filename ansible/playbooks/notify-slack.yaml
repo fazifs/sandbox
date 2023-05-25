@@ -8,10 +8,10 @@
      community.general.slack:
         token: "{{ lookup('env','SLACK_TOKEN') }}"
         msg: |
-            ### Cluster creation ###
+            ### app is being deplped ###
             --------------------------------------
             `Status`: Success.
-            `Cluster`: Cluster provisionig started. 
+            `Cluster`: App deployment started. 
             --------------------------------------
         channel: "{{ lookup('env','SLACK_CHANNEL') }}"
         color: good
