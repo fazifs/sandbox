@@ -1,0 +1,5 @@
+resources:
+- nginx-ns.yaml
+- nginx-deployment.yaml
+- nginx-service.yaml
+- nginx-route.yaml
